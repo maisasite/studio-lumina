@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Studio Lumina - Projeto demonstrativo de salão de beleza">
+  <title>Studio Lumina | Hair & Beauty</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <a href="#inicio" class="logo">
+    LUMINA
+    <span>HAIR & BEAUTY</span>
+  </a>
+
+  <nav id="nav">
+    <a href="#inicio">Início</a>
+    <a href="#sobre">O Studio</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#galeria">Galeria</a>
+    <a href="#avaliacoes">Avaliações</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <a href="#agendamento" class="header-button">Agendar horário</a>
+
+  <button class="menu-button" onclick="toggleMenu()" aria-label="Abrir menu">
+    ☰
+  </button>
+</header>
+
+
+<main>
+
+  <!-- CAPA -->
+  <section class="hero" id="inicio">
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <p class="eyebrow">STUDIO LUMINA • HAIR & BEAUTY</p>
+
+      <h1>
+        Sua beleza.<br>
+        Seu momento.
+      </h1>
+
+      <p class="hero-description">
+        Um espaço pensado para você desacelerar,
+        se cuidar e redescobrir sua melhor versão.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#agendamento" class="primary-button">
+          Agendar meu horário
+        </a>
+
+        <a href="#servicos" class="secondary-button">
+          Conhecer serviços
+        </a>
+      </div>
+    </div>
+
+    <div class="scroll">
+      ↓ DESCUBRA
+    </div>
+
+  </section>
+
+
+  <!-- APRESENTAÇÃO -->
+  <section class="intro" id="sobre">
+
+    <div class="intro-small">
+      <p>BELEZA • CUIDADO • EXPERIÊNCIA</p>
+    </div>
+
+    <div class="intro-main">
+      <p class="section-label">BEM-VINDA AO LUMINA</p>
+
+      <h2>
+        Mais que um salão,<br>
+        uma experiência.
+      </h2>
+
+      <p>
+        No Studio Lumina, acreditamos que cuidar de si é um ato
+        de carinho. Criamos um ambiente acolhedor e sofisticado,
+        onde cada atendimento é pensado de forma única.
+      </p>
+
+      <p>
+        Nossa missão é valorizar sua beleza natural através de
+        técnicas modernas, atendimento personalizado e experiências
+        que fazem você se sentir ainda mais especial.
+      </p>
+
+      <a href="#servicos" class="text-link">
+        CONHEÇA NOSSOS SERVIÇOS →
+      </a>
+    </div>
+
+  </section>
+
+
+  <!-- SERVIÇOS -->
+  <section class="services" id="servicos">
+
+    <div class="section-heading">
+      <p class="section-label">CUIDADOS PARA VOCÊ</p>
+      <h2>Nossos serviços</h2>
+      <p>
+        Escolha seu momento de cuidado e deixe o restante com a gente.
+      </p>
+    </div>
+
+    <div class="services-grid">
+
+      <article class="service-card">
+        <span class="service-number">01</span>
+        <div class="service-icon">✂</div>
+        <h3>Corte & Finalização</h3>
+        <p>
+          Cortes personalizados que valorizam seu estilo,
+          personalidade e formato de rosto.
+        </p>
+        <div class="service-price">
+          <span>A partir de</span>
+          <strong>R$ 70</strong>
+        </div>
+      </article>
+
+      <article class="service-card">
+        <span class="service-number">02</span>
+        <div class="service-icon">✦</div>
+        <h3>Coloração</h3>
+        <p>
+          Técnicas modernas para renovar sua cor preservando
+          a beleza e a saúde dos fios.
+        </p>
+        <div class="service-price">
+          <span>A partir de</span>
+          <strong>R$ 150</strong>
+        </div>
+      </article>
+
+      <article class="service-card">
+        <span class="service-number">03</span>
+        <div class="service-icon">♡</div>
+        <h3>Tratamentos</h3>
+        <p>
+          Hidratação, nutrição e reconstrução para devolver
+          brilho e vitalidade aos cabelos.
+        </p>
+        <div class="service-price">
+          <span>A partir de</span>
+          <strong>R$ 90</strong>
+        </div>
+      </article>
+
+      <article class="service-card">
+        <span class="service-number">04</span>
+        <div class="service-icon">◇</div>
+        <h3>Escova & Penteados</h3>
+        <p>
+          Produções especiais para transformar qualquer ocasião
+          em um momento inesquecível.
+        </p>
+        <div class="service-price">
+          <span>A partir de</span>
+          <strong>R$ 60</strong>
+        </div>
+      </article>
+
+      <article class="service-card">
+        <span class="service-number">05</span>
+        <div class="service-icon">◌</div>
+        <h3>Manicure & Pedicure</h3>
+        <p>
+          Cuidado completo para mãos e pés com acabamento
+          impecável.
+        </p>
+        <div class="service-price">
+          <span>A partir de</span>
+          <strong>R$ 40</strong>
+        </div>
+      </article>
+
+      <article class="service-card">
+        <span class="service-number">06</span>
+        <div class="service-icon">✧</div>
+        <h3>Design de Sobrancelhas</h3>
+        <p>
+          Design personalizado para valorizar a expressão
+          e harmonizar seu rosto.
+        </p>
+        <div class="service-price">
+          <span>A partir de</span>
+          <strong>R$ 45</strong>
+        </div>
+      </article>
+
+    </div>
+
+  </section>
+
+
+  <!-- FRASE -->
+  <section class="quote-section">
+    <p>
+      "Beleza é sentir-se bem<br>
+      sendo exatamente quem você é."
+    </p>
+  </section>
+
+
+  <!-- GALERIA -->
+  <section class="gallery-section" id="galeria">
+
+    <div class="section-heading">
+      <p class="section-label">NOSSO TRABALHO</p>
+      <h2>Inspire-se</h2>
+    </div>
+
+    <div class="gallery">
+
+      <div class="gallery-item large">
+        <img
+          src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=900&q=85"
+          alt="Interior de salão de beleza">
+      </div>
+
+      <div class="gallery-item">
+        <img
+          src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=700&q=85"
+          alt="Cuidados com cabelos">
+      </div>
+
+      <div class="gallery-item">
+        <img
+          src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=700&q=85"
+          alt="Salão de beleza">
+      </div>
+
+      <div class="gallery-item">
+        <img
+          src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?auto=format&fit=crop&w=700&q=85"
+          alt="Cabelo profissional">
+      </div>
+
+      <div class="gallery-item">
+        <img
+          src="https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?auto=format&fit=crop&w=700&q=85"
+          alt="Atendimento em salão">
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- AVALIAÇÕES -->
+  <section class="testimonials" id="avaliacoes">
+
+    <div class="section-heading light">
+      <p class="section-label">CARINHO DE QUEM JÁ PASSOU POR AQUI</p>
+      <h2>Experiências Lumina</h2>
+    </div>
+
+    <div class="testimonial-grid">
+
+      <article class="testimonial">
+        <div class="stars">★★★★★</div>
+        <p>
+          "A experiência foi maravilhosa. Atendimento cuidadoso,
+          ambiente lindo e adorei o resultado do meu cabelo."
+        </p>
+        <strong>Mariana A.</strong>
+        <span>Avaliação demonstrativa</span>
+      </article>
+
+      <article class="testimonial">
+        <div class="stars">★★★★★</div>
+        <p>
+          "Um espaço super acolhedor. Dá vontade de voltar sempre.
+          Fiquei apaixonada pelo resultado!"
+        </p>
+        <strong>Camila R.</strong>
+        <span>Avaliação demonstrativa</span>
+      </article>
+
+      <article class="testimonial">
+        <div class="stars">★★★★★</div>
+        <p>
+          "Profissionais atenciosas e um atendimento incrível.
+          Foi realmente um momento de autocuidado."
+        </p>
+        <strong>Larissa M.</strong>
+        <span>Avaliação demonstrativa</span>
+      </article>
+
+    </div>
+
+  </section>
+
+
+  <!-- AGENDAMENTO -->
+  <section class="booking" id="agendamento">
+
+    <div class="booking-info">
+
+      <p class="section-label">RESERVE SEU MOMENTO</p>
+
+      <h2>
+        Pronta para cuidar<br>
+        de você?
+      </h2>
+
+      <p>
+        Preencha os dados ao lado para simular um agendamento.
+        Este formulário faz parte de um projeto demonstrativo.
+      </p>
+
+      <div class="contact-item">
+        <span>◷</span>
+        <div>
+          <strong>Horário de atendimento</strong>
+          <p>Terça a sábado • 9h às 19h</p>
+        </div>
+      </div>
+
+      <div class="contact-item">
+        <span>⌖</span>
+        <div>
+          <strong>Localização demonstrativa</strong>
+          <p>Centro • Londrina - PR</p>
+        </div>
+      </div>
+
+    </div>
+
+
+    <form class="booking-form" onsubmit="scheduleAppointment(event)">
+
+      <label for="name">Seu nome</label>
+      <input
+        id="name"
+        type="text"
+        placeholder="Como podemos te chamar?"
+        required>
+
+      <label for="service">Serviço desejado</label>
+      <select id="service" required>
+        <option value="">Selecione um serviço</option>
+        <option>Corte & Finalização</option>
+        <option>Coloração</option>
+        <option>Tratamento Capilar</option>
+        <option>Escova & Penteado</option>
+        <option>Manicure & Pedicure</option>
+        <option>Design de Sobrancelhas</option>
+      </select>
+
+      <label for="date">Data desejada</label>
+      <input id="date" type="date" required>
+
+      <label for="phone">WhatsApp</label>
+      <input
+        id="phone"
+        type="tel"
+        placeholder="(00) 00000-0000"
+        required>
+
+      <button type="submit">
+        Solicitar agendamento
+      </button>
+
+      <p id="booking-message"></p>
+
+    </form>
+
+  </section>
+
+
+  <!-- INSTAGRAM -->
+  <section class="instagram">
+
+    <p class="section-label">@STUDIOLUMINA</p>
+    <h2>Siga nossos momentos</h2>
+
+    <p>
+      Acompanhe novidades, inspirações e cuidados de beleza.
+    </p>
+
+    <button onclick="demoInstagram()">
+      Ver Instagram
+    </button>
+
+  </section>
+
+</main>
+
+
+<footer id="contato">
+
+  <div class="footer-brand">
+    <h2>LUMINA</h2>
+    <span>HAIR & BEAUTY</span>
+    <p>
+      Um espaço criado para transformar cuidado em experiência.
+    </p>
+  </div>
+
+  <div>
+    <h3>Navegação</h3>
+    <a href="#sobre">O Studio</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#galeria">Galeria</a>
+    <a href="#agendamento">Agendamento</a>
+  </div>
+
+  <div>
+    <h3>Atendimento</h3>
+    <p>Terça a sábado</p>
+    <p>9h às 19h</p>
+    <p>Centro • Londrina - PR</p>
+  </div>
+
+  <div>
+    <h3>Contato</h3>
+    <p>WhatsApp demonstrativo</p>
+    <p>Instagram demonstrativo</p>
+  </div>
+
+</footer>
+
+
+<div class="portfolio-notice">
+  Projeto demonstrativo de portfólio • Studio Lumina é uma empresa fictícia.
+</div>
+
+
+<button class="whatsapp-button" onclick="demoWhatsapp()" aria-label="WhatsApp">
+  <span>✆</span>
+</button>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
